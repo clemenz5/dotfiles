@@ -1,0 +1,18 @@
+Host omni
+	Hostname keefer.de
+	Port 22
+	User root
+	IdentityFile ~/.ssh/omni_key
+
+Host github.com
+	User git
+	IdentityFile ~/.ssh/github
+
+Host storagebox	
+	Hostname u333622.your-storagebox.de
+	User u333622
+	Port 23
+Host luis
+	Hostname 38.242.158.209
+	User root
+	IdentityFile ~/.ssh/luis_server
