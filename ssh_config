@@ -16,3 +16,7 @@ Host luis
 	Hostname 38.242.158.209
 	User root
 	IdentityFile ~/.ssh/luis_server
+Host uio	
+	Hostname login.ifi.uio.no
+	User lorenztk
+	IdentityFile ~/.ssh/uio_server	
